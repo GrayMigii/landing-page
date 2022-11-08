@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header *{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 120px 120px;
+}
+
+.header-header {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.right-links {
+    display: flex;
+    margin-left: auto;
+    gap: 24px;
+}
+
+.header-content {
+    display: flex;
+    gap: 25px;
+}
+
+.side-info {
+    flex: 1 1 0%;
+}
+
+.header-image {
+    display: flex;
+    flex: 1 1 0%;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header-button button{
+    background-color: #3882f6;
+    border: 0px solid ;
+    border-radius: 2px;
+    padding: 2px 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    font: 36px light italic;
+    color: #1f2937;
+    padding:50px 200px 30px;
+}
+
+.quoter {
+    display: flex;
+    color: black;
+    justify-content: end;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882f6;
+    margin: 45px 120px;
+    padding: 12px 80px;
+    border-radius: 3px;
+}
+
+.side-text {
+    flex: 1 1 auto;
+}
+
+.blue-button-container {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-button button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.blue-title {
+    font-size: 24px;
+    color: white;
+}
+
+.blue-text {
+    color: white;
+}
+
+.random-title {
+    display:flex;
+    justify-content: center;
+    margin: 25px 0px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.both-container {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px #3882f6 solid;
+    border-radius: 8px
+}
